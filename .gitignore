@@ -1,0 +1,25 @@
+# ------------------------------------
+# 1. Dependencias y Builds de Java
+# ------------------------------------
+
+# Archivos de build y paquetes compilados
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+/target/ # Directorio de build típico (Maven/Gradle)
+
+# Archivos generados por Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-check-report.html
+
+# Archivos generados por Gradle
+.gradle/
+build/
+!build/wrapper/
