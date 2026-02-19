@@ -17,7 +17,7 @@ public class MongoCRUD
     public MongoCRUD()
     {
 	this.mongoClient = MongoClients.create(
-					       "mongodb+srv://linkpark182_db_user:avrUGEi06rs5GH58@cluster0.kjdptww.mongodb.net/?appName=Cluster0"
+					       "mongodb+srv://"
 					       );
         this.database = mongoClient.getDatabase("customerDB");
         this.collection = database.getCollection("customers");
