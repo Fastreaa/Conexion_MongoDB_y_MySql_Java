@@ -17,7 +17,7 @@ public class MySqlCRUD
 
 
 	// Configuración de la conexión a la base de datos
-    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/lab3db?useSSL=false&allowPublicKeyRetrieval=true";
+    private static final String JDBC_URL = "jdbc:mysql://";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "12345";
 
