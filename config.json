@@ -2,8 +2,8 @@
 {
     "mongoDB":
     {
-	"uri": "mongodb+srv://emi1:12345@cluster0.jd6uxxf.mongodb.net/",
-	"dbName": "customerDB"
-	"collection" : "customers"
+	"uri": "",
+	"dbName": ""
+	"collection" : ""
     }
 }
